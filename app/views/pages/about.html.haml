@@ -8,43 +8,43 @@
 
 .about_content
   %p
-    PasswordPusher is an application to communicate passwords over the web. Links to passwords expire after a certain number of views and/or time has passed. Hosted at
+    PasswordPusher is an application to communicate passwords over the web. Links to passwords expire after a certain number of views and/or time has passed. Officially hosted at
     = succeed '.' do
       = link_to "pwpush.com", "https://pwpush.com"
 
   %p
-    I previously posted this project on
+    Peter Giacomo Lombardo previously posted this project on
     = link_to "Reddit", "http://www.reddit.com/r/sysadmin/comments/pfda0/do_you_email_out_passwords_i_wrote_this_utility/"
-    which provided some great feedback - most of which has been implemented.
+    which provided some great feedback - most of which he has implemented.
 
   %p
     The source code to this site is
     = succeed "." do
       = link_to "on Github", "https://github.com/pglombardo/PasswordPusher"
-    It's opensource and free for anyone to use or modify.  Use it internally at your organization, host it publicly or just use
+    It's opensource and free for anyone to use or modify (which was done here to host this site).  Use it internally at your organization, host it publicly or just use
     = succeed "." do
       = link_to "pwpush.com", "https://pwpush.com"
     It's up to you.
 
 %p{ :style => 'clear: both;' }
-  %h1 About Me
+  %h1 About The Creator
 
 .about_content
   %p
-    My name is Peter Giacomo Lombardo.  You can find me on
+    His name is Peter Giacomo Lombardo.  You can find him on
     = link_to "LinkedIn", "http://it.linkedin.com/in/peterlombardo"
     and
     = succeed "." do
       = link_to "Github", "https://github.com/pglombardo"
 
   %p
-    On a normal day, I spend my time building
+    On a normal day, he spends his time building
     = link_to "Instana", "https://www.instana.com/"
     and others days working on tools like PasswordPusher.
 
   %p
     For updates, you can
-    = link_to "follow me on Twitter", "https://twitter.com/pglombardo"
+    = link_to "follow him on Twitter", "https://twitter.com/pglombardo"
     or
     = succeed "." do
       = link_to "Github", "https://github.com/pglombardo"
@@ -147,25 +147,6 @@
         = succeed "." do
           = link_to "JSON POST fix", "https://github.com/pglombardo/PasswordPusher/pull/3"
 
-%h1 Other Related Projects
-
-.about_content
-  %ul
-    %li= link_to "Agrippa", "http://getagrippa.com/"
-    %li
-      A Django spin-off project:
-      = link_to "projectgiraffe", "https://github.com/quasarj/projectgiraffe"
-
-    %li
-      = link_to "phanaster", "https://github.com/phanaster"
-      created a
-      = link_to "coupon pushing application", "https://github.com/phanaster/cpsh.me"
-      == (#{link_to "cpsh.me", "http://cpsh.me/"}) based off of PasswordPusher
-
-    %li
-      = link_to "bemosior", "https://github.com/bemosior"
-      put together a PHP port of PasswordPusher:
-      = link_to "PHPasswordPusher", "https://github.com/bemosior/PHPasswordPusher"
 
 .about_content
   %div{ :style => 'float: left; font-size: .8em; margin-bottom: 50px;' }
